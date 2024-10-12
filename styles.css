@@ -1,0 +1,109 @@
+/* ตั้งค่าฟอนต์น่ารักจาก Google Fonts */
+body {
+    font-family: 'Mitr', sans-serif; /* ฟอนต์ Mitr */
+}
+
+/* ตั้งค่าฟอนต์น่ารักสำหรับหัวข้อ */
+h1, h4 {
+    font-family: 'Sriracha', cursive; /* ฟอนต์ Sriracha */
+    color: #FF69B4; /* สีชมพูสดใส */
+    font-size: 30px;
+}
+
+/* ตั้งค่าฟอนต์น่ารักสำหรับ label */
+label {
+    font-family: 'Mitr', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    color: #FF6347; /* สีส้มพาสเทล */
+}
+
+/* เพิ่มเงาให้ตัวอักษร */
+h1, h4, label {
+    text-shadow: 1px 1px 2px #FFC0CB; /* เงาสีชมพูพาสเทล */
+}}
+/* ตั้งค่าสีพื้นหลังและสีตัวอักษรของหน้าเว็บ */
+body {
+    font-family: 'Mitr', sans-serif;
+    background-color: #F3E5F5; /* สีม่วงพาสเทล */
+    color: #333;
+}
+
+/* จัดรูปแบบกล่องคอนเทนเนอร์ */
+.container {
+    margin: 50px auto;
+    text-align: center;
+    max-width: 80%;
+    padding: 20px;
+    background-color: #FFECB3; /* สีไข่พาสเทล */
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ตั้งค่าสำหรับหัวข้อหลัก */
+h1 {
+    color: #7E57C2; /* สีม่วงเข้ม */
+}
+
+/* ตั้งค่าตารางทั่วไป */
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20px; /* ปรับขนาดตัวอักษรให้ใหญ่ขึ้น */
+}
+
+/* การจัดสไตล์สำหรับหัวตาราง */
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+/* สีพื้นหลังของหัวตาราง */
+th {
+    background-color: #F8BBD0;
+}
+
+/* ตั้งค่าขนาดตัวอักษรของ "กรอกรหัสนักเรียน" */
+label {
+    font-size: 30px; /* ขนาดตัวอักษรใหญ่ขึ้น */
+    font-weight: bold;
+}
+
+/* ตั้งค่าขนาดตัวอักษรของชื่อวิชา */
+h4 {
+    font-size: 25px; /* ขนาดตัวอักษรใหญ่ขึ้น */
+    font-weight: bold;
+    color: #333; /* ปรับสีตัวอักษรได้ตามความต้องการ */
+}
+/* สีตารางตามวิชาต่างๆ (โทนพาสเทล) */
+.math {
+    background-color: #B2DFDB; /* สีมินต์พาสเทล */
+}
+
+.thai {
+    background-color: #FFE0B2; /* สีส้มพาสเทล */
+}
+
+.social {
+    background-color: #E6E6FA; /* สีลาเวนเดอร์พาสเทล */
+}
+
+.history {
+    background-color: #FFF9C4; /* สีเหลืองพาสเทล */
+}
+
+.science {
+    background-color: #C8E6C9; /* สีเขียวพาสเทล */
+.table-subtask {
+    font-size: 18px;
+    background-color: #F0E6F5; /* โทนสีพาสเทลอ่อน */
+}
+
+/* ตัวอย่างการปรับสีสำหรับตารางย่อย */
+.table-subtask {
+    font-size: 18px;
+    background-color: #F0E6F5; /* โทนสีพาสเทลอ่อน */
+}
